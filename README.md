@@ -29,6 +29,7 @@ The analysis was conducted using data from the 'gdb023' (atliq_hardware_db) data
 ```sql
 SELECT market FROM dim_customer
 WHERE customer = 'Atliq Exclusive' AND region = 'APAC';
+```
 
 ## 2. What is the percentage of unique product increase in 2021 vs. 2020? The final output contains these fields: unique_products_2020, unique_products_2021 and percentage_chg.
 ```sql
@@ -48,5 +49,5 @@ FROM
 	CTE
 CROSS JOIN 
     CTE2;
-
+```
 
