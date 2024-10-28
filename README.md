@@ -21,9 +21,12 @@ The analysis was conducted using data from the 'gdb023' (atliq_hardware_db) data
 # Tools Used
 - SQL: For querying and analyzing the data.
 - Visualization Tool: Power Bi for data visualisation.
-- Microsoft PowerPoint: For Presentation
+- Microsoft PowerPoint: For Presentation.
 
 # Ad-hoc Requests & SQL Queries
 
 ## 1. Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.
+```SELECT market FROM dim_customer
+WHERE customer = 'Atliq Exclusive' AND region = 'APAC';```
+
 
