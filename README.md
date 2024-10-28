@@ -26,7 +26,7 @@ The analysis was conducted using data from the 'gdb023' (atliq_hardware_db) data
 # Ad-hoc Requests & SQL Queries
 
 ## 1. Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.
-```SELECT market FROM dim_customer
-WHERE customer = 'Atliq Exclusive' AND region = 'APAC';```
+``` SELECT market FROM dim_customer
+WHERE customer = 'Atliq Exclusive' AND region = 'APAC';
 
 
